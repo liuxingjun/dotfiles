@@ -1,0 +1,9 @@
+[core]
+        safecrlf = warn
+        autocrlf = input
+[credential]
+        helper = store
+[log]
+        date = iso-local
+[help]
+        autocorrect = 30
