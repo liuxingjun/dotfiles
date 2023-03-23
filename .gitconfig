@@ -7,3 +7,6 @@
         date = iso-local
 [help]
         autocorrect = 30
+[pager]
+        branch = false
+        config = false
