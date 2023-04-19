@@ -8,3 +8,5 @@ else
 fi
 
 echo "source $PWD/.alias"
+
+ln -s $PWD/.vimrc  ~/.vimrc
