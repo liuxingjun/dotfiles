@@ -1,6 +1,7 @@
 [core]
         safecrlf = warn
         autocrlf = input
+	editor = vim
 [credential]
         helper = store
 [log]
