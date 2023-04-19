@@ -6,3 +6,5 @@ if [ -s $HOME/.gitconfig ]; then
 else
     ln -s $PWD/.gitconfig  ~/.gitconfig
 fi
+
+echo "source $PWD/.alias"
