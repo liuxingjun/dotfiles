@@ -1,12 +1,7 @@
 #! /bin/sh
 
-PWD=`dirname $0`
-if [ -s $HOME/.gitconfig ]; then
-    git config --global include.path "$PWD/.gitconfig"
-else
-    ln -s $PWD/.gitconfig  ~/.gitconfig
-fi
+PWD=$(dirname $(readlink -f "$0"))
 
-echo "source $PWD/.alias"
-
-ln -s $PWD/.vimrc  ~/.vimrc
+for file in $PWD/dot_*; do
+    ln -sfv $file ~/.${file#*dot_}
+done
