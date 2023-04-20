@@ -1,2 +1,3 @@
 syntax on
+set modeline
 autocmd FileType yaml,python setlocal cursorcolumn
