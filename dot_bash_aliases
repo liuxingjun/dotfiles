@@ -2,4 +2,4 @@
 # vim:ft=bash:
 
 alias date='date --rfc-3339=seconds'
-alias ll='ls -lA'
+alias ll='ls -lA --time-style=iso'
