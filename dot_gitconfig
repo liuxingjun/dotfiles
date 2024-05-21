@@ -4,6 +4,7 @@
         safecrlf = warn
         autocrlf = input
 	editor = vim
+        pager = less
 [credential]
         helper = cache
 [log]
