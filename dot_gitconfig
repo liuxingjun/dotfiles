@@ -14,3 +14,7 @@
 [pager]
         branch = false
         config = false
+[push]
+        default = current
+[rebase]
+        autoStash = true
